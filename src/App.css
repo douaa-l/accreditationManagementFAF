@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  flex-direction: row;
+  display: flex;
+flex-wrap: nowrap;
+align-content: space-between;
+  width: 100%;
+  height: 90%;
+  border-radius: 5px;
+  background-color: white;
+  margin:10px;
+  padding: 20px;
+  
+  }
+  .material-icons.md-48 { 
+cursor: pointer;
+  font-size: 48px;
+  color:rgb(205, 174, 114) }
+  .material-icons.md-48:hover{
+    font-size: 52px;
+
+  }
+
+  .material-icons.md-30 { 
+    cursor: pointer;
+      font-size: 30px;
+      color:rgb(87, 184, 70)}
+      .material-icons.md-30:hover{
+        font-size: 32px;
+        
+    
+      }
+      .material-icons.md-31 { 
+        cursor: pointer;
+          font-size: 31px;
+          color:red}
+          .material-icons.md-31:hover{
+            font-size: 32px;
+        
+          }
+
+  @keyframes check {
+    from{ font-size: 80px;}
+    to{font-size: 130px;}
+  }
+  .material-icons.md-130 { 
+    cursor: pointer;
+      font-size: 130px;
+      color:#57b846;
+      animation-name: check;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-in;
+
+    
+    }
+      
+
+  .datepicker{
+    
+    margin-left:15px;
+margin-right:15px;
+border-radius:15px;
+width: 200px;
+padding:5px;
+padding-left: 15px;
+border-color: rgb(205, 174, 114);
+border-style: solid;
+border-width: 2px;
+  }
+  .datepicker:hover{
+    box-shadow: 3px 3px 3px #747d77;
+  }
+  .images-wrap{
+    display: flex;
+  }
